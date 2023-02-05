@@ -14,7 +14,7 @@ package com.dmdev;
  */
 public class Task3 {
     public static void main(String[] args) {
-        int triangle1 = 10;
+        int triangle1 = 20;
         int triangle2 = 20;
         int triangle3 = 10;
         int triangle4 = 20;
