@@ -1,4 +1,4 @@
-package com.dmdev;
+package com.dmdev.draft;
 
 /**
  * Задание 3
@@ -12,36 +12,30 @@ package com.dmdev;
  * Вторая: сравнивает переданные площади двух треугольников и выводит на консоль первый треугольник больше, меньше или равен второму.
  * Учитывать, что площадь может быть вещественным числом.
  */
-public class Task3 {
+public class Draft3 {
     public static void main(String[] args) {
-        int triangle1 = 20;
+        int triangle1 = 10;
         int triangle2 = 20;
-        int triangle3 = 10;
-        int triangle4 = 20;
-        double square1 = calculateTriangle(triangle1, triangle2);
-        double square2 = calculateTriangle(triangle3, triangle4);
-        outputTriangle(square1, square2);
-
-
+        int triangle3 = 30;
+        int triangle4 = 40;
+        double firstArea = getAreaTriangle(triangle1, triangle2);
+        double secondArea = getAreaTriangle(triangle3, triangle4);
+        System.out.println(firstArea);
+        System.out.println(secondArea);
+        print(20.20,10.10);
     }
 
-    public static double calculateTriangle(int first, int second) {
-        double result = 0.5 * first * second;
-        return result;
+    public static double getAreaTriangle(int first, int second) {
+        return first * second / 2.0;
     }
 
-    public static void outputTriangle(double square1, double square2) {
-        if (square1 > square2) {
-            System.out.println("square1 > square2");
-        } else if (square1 < square2) {
-            System.out.println("square1 < square2");
-        } else {
-            System.out.println("square1 = square2");
+    public static void print(double first, double second) {
+        if (first > second) {
+            System.out.println("что 1 треугольник больше");
+        } else if (first < second) {
+            System.out.println("что 1 треугольник меньше");
+        } else if (first == second) {
+            System.out.println("треугольники ровны");
         }
-
-
     }
-
-
 }
-

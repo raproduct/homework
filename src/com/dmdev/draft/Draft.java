@@ -1,4 +1,4 @@
-package com.dmdev;
+package com.dmdev.draft;
 
 /**
  * Даны 3 переменные:
@@ -12,33 +12,24 @@ package com.dmdev;
  * Параметры: operand1 = 24.4, operand2 = 10.1, operation = ‘+’
  * Результат: 34.5 (24.4 + 10.1)
  */
-public class Task2 {
+
+
+public class Draft {
     public static void main(String[] args) {
-        double var1 = 20.20;
-        double var2 = 10.10;
-        char ivi = '-';
-        findBest(var1, var2, ivi);
+        double var = 10.10;
+        double var2 = 20.20;
+        char var3 = '-';
+        findBest(var,var2,var3);
     }
 
     public static void findBest(double operand1, double operand2, char operation) {
-        double result = operand1 + operation + operand2;
-        if (operation == '+') {
-            result = operand1 + operand2;
-        } else if (operation == '-') {
-            result = operand1 - operand2;
-        } else if (operation == '*') {
-            result = operand1 * operand2;
-        } else if (operation == '/') {
-            result = operand1 / operand2;
-        } else if (operation == '%') {
-            result = operand1 % operand2;
+        if (operation == '-'){
+            System.out.println(operand1 + operand2);
         }
-        System.out.println(result);
-
-
-
     }
 
 
+
 }
+
 
