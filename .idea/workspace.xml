@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c89ed1c-f107-47f8-b503-61b447440c8c" name="Changes" comment="task4-1">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/draft/Draft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/draft/Draft3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/draft/Draft4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/lessone21/task4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/prostoZadacha/Zadacha1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/prostoZadacha/Zadacha20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/prostoZadacha/Zadacha21.java" afterDir="false" />
+    <list default="true" id="5c89ed1c-f107-47f8-b503-61b447440c8c" name="Changes" comment="task4-2">
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/lessone21/Task5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/lessone21/Task6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/lessone21/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/lessone21/Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/lessone21/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/lessone21/task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/lessone21/Task4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +49,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.task4">
-    <configuration name="Draft3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.draft.Draft3" />
+  <component name="RunManager" selected="Application.Task6">
+    <configuration name="Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.lessone21.Task4" />
       <module name="homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.draft.*" />
+          <option name="PATTERN" value="com.dmdev.lessone21.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zadacha1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.prostoZadacha.Zadacha1" />
+    <configuration name="Task5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.lessone21.Task5" />
       <module name="homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.prostoZadacha.*" />
+          <option name="PATTERN" value="com.dmdev.lessone21.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zadacha20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.prostoZadacha.Zadacha20" />
+    <configuration name="Task6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.lessone21.Task6" />
       <module name="homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.prostoZadacha.*" />
+          <option name="PATTERN" value="com.dmdev.lessone21.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task6" />
+        <item itemvalue="Application.Task5" />
+        <item itemvalue="Application.Task4" />
         <item itemvalue="Application.task4" />
         <item itemvalue="Application.Zadacha21" />
-        <item itemvalue="Application.Zadacha20" />
-        <item itemvalue="Application.Zadacha1" />
-        <item itemvalue="Application.Draft3" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675620870910</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="task4-2">
+      <created>1676219882986</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676219882986</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,7 +189,8 @@
     <MESSAGE value="Task2" />
     <MESSAGE value="Task3" />
     <MESSAGE value="task4-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="task4-1" />
+    <MESSAGE value="task4-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="task4-2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/homework$Draft.ic" NAME="Draft Coverage Results" MODIFIED="1675777160699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

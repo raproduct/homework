@@ -5,7 +5,7 @@ package com.dmdev.lessone21;
  * Посчитать четные и нечетные цифры целого числа и вывести их на консоль.
  * Для решения написать 2 функции, которые будут принимать введенное целое число, а возвращать количество четных цифр (вторая функция - нечетных).
  */
-public class task4 {
+public class Task4 {
     public static void main(String[] args) {
         int value = 123334;
         //      int chetChisla = getChetnoeChislo(567888);
